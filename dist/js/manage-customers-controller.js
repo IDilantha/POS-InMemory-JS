@@ -14,6 +14,7 @@ function loadCustomers() {
             '</tr>';
         $("#tbl-customers tbody").append(html);
     }
+    showOrHideFooter();
 }
 
 $("#btnSubmit").click(function () {
@@ -30,6 +31,7 @@ $("#btnSubmit").click(function () {
 
     if (id.match("^C[0-9]+$") && name.match("^[a-zA-Z]+$") && address.match("^[a-zA-Z]+$")){
         $("#tbl-customers tbody").append(tableData);
+        showOrHideFooter();
         reset();
     }else {
         if (!address.match("^[a-zA-Z]+$")){
@@ -42,7 +44,6 @@ $("#btnSubmit").click(function () {
             $("#txtId").addClass("invalid").select();
         }
     }
-    deleteCustomer();
 });
 
 function reset() {
@@ -53,13 +54,14 @@ function reset() {
 }
 
 function deleteCustomer() {
-    $("#tbl-customers tbody tr td:last-child i").click(function(){
+    $("#tbl-customers").on('click','tbody tr td i',(function(){
         if(confirm("Are you sure to delete this Customer?")){
             $(this).parents("tr").fadeOut(1000, function(){
-                $(this).parents("tr").remove();
+                $(this).remove();
+                showOrHideFooter();
             });
          }
-    });
+    }));
 }
 
 $("#txtId").keyup(function () {
@@ -72,3 +74,12 @@ $("#txtName").keyup(function () {
 $("#txtCustomerAddress").keyup(function () {
     $("#txtCustomerAddress").removeClass("invalid");
 });
+
+
+function showOrHideFooter(){
+    if ($("#tbl-customers tbody tr").length > 0){
+        $("#tbl-customers tfoot").hide();
+    }else{
+        $("#tbl-customers tfoot").show();
+    }
+};

@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="83f47d7e-ddc3-419e-908c-fc7417578d70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/manage-customers-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/manage-customers-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/manage-items-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/manage-items-controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage-customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/manage-customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/manage-items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/place-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/place-order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/search-order.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579327748051</updated>
       <workItem from="1579327751643" duration="1328000" />
-      <workItem from="1579329999148" duration="22230000" />
+      <workItem from="1579329999148" duration="31227000" />
     </task>
     <servers />
   </component>

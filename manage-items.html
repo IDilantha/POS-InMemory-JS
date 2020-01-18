@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="dist/css/manage-items-style.css">
+  <link rel="stylesheet" href="dist/css/styles.css">
 
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -128,12 +128,12 @@
                 <form role="form">
                   <div class="card-body">
                     <div class="form-group">
-                      <label for="txtId">Item Code</label>
-                      <input type="name" class="form-control" id="txtId" placeholder="Enter Item Code">
+                      <label for="txtItemId">Item Code</label>
+                      <input type="name" class="form-control" id="txtItemId" placeholder="Enter Item Code">
                     </div>
                     <div class="form-group">
-                      <label for="txtName">Item Description</label>
-                      <input type="text" class="form-control" id="txtName" placeholder="Enter Item Description">
+                      <label for="txtItemDesc">Item Description</label>
+                      <input type="text" class="form-control" id="txtItemDesc" placeholder="Enter Item Description">
                     </div>
                     <div class="form-group">
                       <label for="txtQtyOnHand">Qty. On Hand</label>
@@ -147,7 +147,7 @@
                   <!-- /.card-body -->
 
                   <div class="card-footer">
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-primary" id="btn-ItemAdd">Save</button>
                     <button type="reset" class="btn btn-warning">Clear</button>
                   </div>
                 </form>
@@ -170,6 +170,11 @@
                     <tbody>
 
                     </tbody>
+                    <tfoot>
+                    <tr>
+                      <td colspan="5" align="center">There are no records right now !</td>
+                    </tr>
+                    </tfoot>
                   </table>
                 </div><!-- /.card-body -->
                 <div class="card-footer">
