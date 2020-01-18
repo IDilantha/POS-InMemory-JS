@@ -93,4 +93,4 @@ function showOrHideFooter(){
     }else{
         $("#tbl-items tfoot").show();
     }
-};
+}
