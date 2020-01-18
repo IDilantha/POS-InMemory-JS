@@ -12,7 +12,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WYXxWil8wE9JNJjRHFCr7MGmuE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -41,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579327748051</updated>
       <workItem from="1579327751643" duration="1328000" />
+      <workItem from="1579329999148" duration="237000" />
     </task>
     <servers />
   </component>
@@ -52,7 +55,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
