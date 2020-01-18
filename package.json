@@ -1,0 +1,10 @@
+{
+  "name": "pos-inmemory-js",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "admin-lte": "^3.0.2"
+  }
+}
