@@ -20,10 +20,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist/img" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -50,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579327748051</updated>
       <workItem from="1579327751643" duration="1328000" />
-      <workItem from="1579329999148" duration="1748000" />
+      <workItem from="1579329999148" duration="3309000" />
     </task>
     <servers />
   </component>
