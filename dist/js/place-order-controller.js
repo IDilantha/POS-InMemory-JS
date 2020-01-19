@@ -56,7 +56,18 @@ function addItemsToTable() {
     Total += tot;
     var total = '<h3 align="left">'+ "Total : "+Total +'</h3>';
     $("#divFooter").append(total);
+    resetAll();
     showOrHideFooter();
+}
+
+function resetAll() {
+    $("#txtCode").val("");
+    $("#txtId").val("");
+    $("#txtDescription").val("");
+    $("#txtQty").val("");
+    $("#txtQtyOnHand").val("");
+    $("#txtName").val("");
+    $("#txtUnitPrice").val("");
 }
 
 function showOrHideFooter(){
